@@ -1,0 +1,93 @@
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+</head> 
+
+<body>
+  
+  <header class="header">
+    <div class="container headerBox">
+      <h1 class="logo">StarSpace</h1>
+
+      <nav class="menu">
+        <a href="#about">О нас</a>
+        <a href="#products">Разделы</a>
+        <a href="#schedule">Расписание</a>
+        <a href="#order">Заявка</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section>
+          <h2>Добро пожаловать в StarSpace</h2>
+    </section>
+
+    <section>
+           <h2 class="bomb" >О нас</h2>
+     </section>
+    <p> У нас есть лекций о космосе,комнота для детей и разные мероприятия </p>
+
+    <section>
+        <h2 class="sectionTitle">Сеансы</h2>
+     </section>
+    <p>1. «Путешествие по Солнечной системе».</p>
+    <p>2. «Тайны звёздного неба».</p>
+    <p>3. «Чёрные дыры и галактики».</p>
+    <p>4. «Космос для детей».</p>
+    <p>5. «История освоения космоса».</p>
+
+    <section class="promo">
+          <h2>Специальное предложение</h2>
+          <p>Скидка 20% для новых клиентов при оформлении заявки через сайт.</p>
+    </section>
+
+    <section>
+        <h2 class="sectionTitle">Расписание</h2>
+          <table>
+            <p> Мы работаем в понедельник среду и четверг с 13:00 до 21:00</p>
+            <p> В субботу и воскресенье с 11:00 до 21:00</p>
+              
+          </table>
+    </section>
+
+    <section>
+        <h2 class="sectionTitle">Форма заявки</h2>
+    </section>
+
+    <section>
+        <h2>Контакты</h2>
+    </section>
+  </main>
+  <footer class="footer">
+  </footer>
+
+</body><section class="order" id="order">
+  <h2>Заявка на планетарий</h2>
+
+  <form>
+    <label for="name">Имя заказчика:</label>
+    <input type="text" id="name" name="name" placeholder="Введите ваше имя" required>
+
+    <label for="contact">Телефон или Email:</label>
+    <input type="text" id="contact" name="contact" placeholder="Телефон или email" required>
+
+    <label for="date">Дата мероприятия:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="type">Тип мероприятия:</label>
+    <select id="type" name="type">
+      <option value="concert">Планетарий</option>
+      <option value="festival">Фестиваль</option>
+      <option value="corporate">Корпоратив</option>
+      <option value="party">Частная вечеринка</option>
+      <option value="other">Другое</option>
+    </select>
+
+    <button type="submit">Отправить заявку</button>
+    <p class="message"></p>
+  </form>
+</section>
+
